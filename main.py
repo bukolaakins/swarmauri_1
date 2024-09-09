@@ -50,7 +50,7 @@ demo = gr.ChatInterface(
         gr.Dropdown(label="Model Name", choices=allowed_models, value=allowed_models[0])
     ],
     title="A system Context Conversation",
-    description="Interact with the agen using the selected model and system context."
+    description="Interact with the agent using the selected model and system context."
 )
 
 if __name__ == "__main__":
